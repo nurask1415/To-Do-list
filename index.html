@@ -1,0 +1,67 @@
+<!--  
+Nura Karkadan
+virginia state university 
+Project 02
+Due  May 4
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>To Do List</title>
+    <link rel=" stylesheet" href="main.css" />
+
+
+</head>
+<body>
+    <header>
+
+        <h1> To Do List  </h1>
+        <form id="new_task_Form">
+            <input type="text" 
+                    id="new_task_input" 
+                    placeholder=" Enter a Task.... " />
+
+              <select class="category_list">
+                <option>  </option>
+                <option> Home </option>
+                <option> Work </option>
+                <option> Personal </option>
+              </select>
+              <select class="Priority" 
+                      id="Priority">
+                <option> </option>
+                <option> Important </option>
+                <option> Very Important </option>
+                <option> Immediately </option>
+              </select>
+              <input type="text"  
+                      class="description_task" 
+                      placeholder=" Task Description ">
+
+            <button id="new_task_submit"> Add </button>
+        </form>
+
+    </header>
+    <main>
+        <section class = "ToDo_list">
+          <h2> Items </h2>
+          <div id = "tasks">
+
+          
+
+
+              </div>
+
+          </div>
+
+        </section>
+    </main>
+    <script src = " main.js "></script>
+</body>
+</html>

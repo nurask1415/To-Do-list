@@ -1,0 +1,144 @@
+/*  
+Nura Karkadan
+virginia state university 
+Project 02
+Due  AMay 4
+
+*/
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: #CD5C5C;
+	background-color: #E9967A;
+}
+
+input, button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+* {
+	margin: 10;
+	box-sizing: border-box;
+
+}
+
+header {
+	padding: 2rem 1rem;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header h1{
+	font-size: 2.5rem;
+	font-weight: 300;
+	color:#CD5C5C;
+	margin-bottom: 1rem;
+}
+input[type="checkbox"] {
+    appearance: checkbox;
+	background-color: #E9967A;
+	
+}
+.category_list {
+	background-color: bisque;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	font-size: 1.2rem;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+	
+}
+
+.Priority{
+	background-color: bisque;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	font-size: 1.2rem;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+}
+label input {
+	float:left;
+	color: darkred;
+}
+label p {
+	float: left;
+	margin: 0;
+}
+input:not([type='checkbox']) {
+	flex: 110%;
+	background-color: bisque;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	font-size: 1.2rem;
+}
+#new_task_submit {
+	cursor: pointer;
+	color: #CD5C5C;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#new_task_Form {
+	display: flex;;
+}
+main {
+	flex:110%;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+.ToDo_list {
+	padding: 1rem;
+}
+
+.ToDo_list h2 {
+	font-size: 2.3rem;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+
+#tasks .task {
+	display: flex;
+	justify-content: space-between;
+	background-color: bisque;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+
+}
+.task .content {
+	flex:110%;
+	display: flex;
+	justify-content: space-between;
+}
+.task .content .text {
+	color: brown;
+	font-size: 1rem;
+	width: 100%;
+	display: block;
+
+
+}
+.task .action button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #CD5C5C;
+}
+
+.task .action {
+	display: flex;
+	margin: 0 -0.5rem;
+}
